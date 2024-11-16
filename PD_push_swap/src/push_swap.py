@@ -6,7 +6,7 @@
 #    By: ismherna <ismherna@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/04 13:40:07 by ismherna          #+#    #+#              #
-#    Updated: 2024/11/07 21:37:47 by ismherna         ###   ########.fr        #
+#    Updated: 2024/11/12 17:44:18 by ismherna         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -83,6 +83,10 @@ def generate_heatmap(similarity_matrix, project_files, comparison_files, title, 
     plt.savefig(output_path)
     plt.close(fig)
 
+
+
+
+##### PARTE EN LA QUE AÑADIR REPOSITORIOS DE COMPARACIÓN #####
 def get_repo_name(repo_number):
     """Devuelve el nombre del repositorio según el número de comparación."""
     if repo_number == "1":
@@ -97,6 +101,12 @@ def get_repo_name(repo_number):
         return "Repo_Epsilon"
     else:
         return "Unknown Repo"
+
+
+
+
+
+
 
 # Función para color según el porcentaje
 def get_color_for_similarity(similarity):
