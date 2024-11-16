@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: ismherna <ismherna@student.42.fr>          +#+  +:+       +#+         #
+#    By: razamora <razamora@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/04 13:30:41 by ismherna          #+#    #+#              #
-#    Updated: 2024/11/07 21:18:39 by ismherna         ###   ########.fr        #
+#    Updated: 2024/11/16 19:50:33 by razamora         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,7 +18,7 @@ RED = \033[0;31m
 RESET = \033[0m
 
 # Available projects
-PROJECTS = PD_Fract_ol PD_Get_next_line PD_Pipex PD_So_Long PD_fdf PD_minitalk PD_push_swap PD_DEBUG
+PROJECTS = PD_Fract_ol PD_Get_next_line PD_Pipex PD_So_Long PD_fdf PD_minitalk PD_push_swap PD_philo PD_DEBUG
 
 # Main target
 all: banner help
